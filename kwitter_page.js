@@ -68,6 +68,7 @@ like : updated_likes
 
 function logout() {
 localStorage.removeItem("room_name");
-window.location.replace("kwitter_room.html");
+localStorage.removeItem("user_name")
+window.location.replace("index.html");
 }
 

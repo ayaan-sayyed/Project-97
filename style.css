@@ -4,6 +4,7 @@ html, body
   margin: 0;
 }
 
+
 body
 {
 background-image: linear-gradient(to right top,red, orange, orange, yellow, yellow);
@@ -36,7 +37,8 @@ background-image: linear-gradient(to right top,red, orange, orange, yellow, yell
 #group_name 
 {
 	padding-right: 20px;
-	font-size: large;
+	font-size: 25px;
+	background-color: chartreuse;
 }
 
 .room_name
